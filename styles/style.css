@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+} 
+
+html {
+    height: 100%;
+}
+
+.page {
+    position: relative;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    font-family: Ralewey, sans-serif;
+    background-color: #fec7ee;
+}
+
+.page_video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.page_title {
+    z-index: 1;
+    max-width: 720px;
+    margin: 0 auto;
+    letter-spacing: 4.06px;
+    font-size: 116px;
+    text-align: center;
+}
