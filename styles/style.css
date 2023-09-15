@@ -15,6 +15,7 @@ html {
     margin: 0;
     font-family: Ralewey, sans-serif;
     background-color: #fec7ee;
+    text-transform: uppercase;
 }
 
 .page_video {
