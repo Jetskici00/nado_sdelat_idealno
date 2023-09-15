@@ -9,8 +9,9 @@ html {
 }
 
 .page {
+    min-width: 800px;
     position: relative;
-    height: 100%;
+    height: inherit;
     display: flex;
     margin: 0;
     font-family: Ralewey, sans-serif;
@@ -34,4 +35,5 @@ html {
     letter-spacing: 4.06px;
     font-size: 116px;
     text-align: center;
+    
 }
